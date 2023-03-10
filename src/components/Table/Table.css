@@ -1,0 +1,121 @@
+.table-container {
+    max-width: 100%;
+    overflow-x: auto;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #111827;
+  }
+  
+  table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    background-color: #111827;
+    border-radius: 10px;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 20px;
+    border-bottom: 1px solid #4a5568;
+    color: #fff;
+  }
+  
+  th {
+    background-color: #111827;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    padding: 10px;
+    background-color: #111827;
+  }
+
+  .pagination {
+    /* display: inline-block; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination li {
+    display: inline;
+    margin-right: 5px;
+  }
+  
+  .pagination li button {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+  
+  .pagination li.active button {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .pagination button {
+    border: none;
+    background-color: #fff;
+    color: #1c1c1e;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .pagination button:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .pagination button.active {
+    background-color: #1c1c1e;
+    color: #fff;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+  
+  .search-container input {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 20%;
+    box-sizing: border-box;
+  }
+  
+  .search-container input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px #007bff33;
+  }
+  
+  span {
+    display: flex;
+    align-items: center;
+  }
+
+  .sort-icon {
+    margin-left: 5px;
+  }
+  
