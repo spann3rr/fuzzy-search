@@ -59,7 +59,7 @@ const useAxios = (urls, method = 'GET', body = null) => {
     fetchData();
   }, [urls, method, body]);
 
-  return { data, loading, error };
+  return { studentsData: data, loading, error };
 };
 
 export default useAxios;

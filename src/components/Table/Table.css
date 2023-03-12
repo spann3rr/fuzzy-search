@@ -119,3 +119,59 @@
     margin-left: 5px;
   }
   
+
+  .profile-container {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    overflow-x: auto;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #111827;
+  }
+  
+  .profile-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .details-table {
+    flex: 1;
+    padding: 40px;
+  }
+
+  .details {
+    /* background-color: #f2f2f2; */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  .details p {
+    font-size: 16px;
+    margin: 10px 0;
+    /* color: #f4f4f4; */
+  }
+
+  .currency-dropdown {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }  
+
+  .currency-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .currency-dropdown {
+    /* your existing styles */
+    margin-left: 0; /* remove the left margin */
+    margin-right: 8px; /* add a right margin for spacing */
+  }
+  
