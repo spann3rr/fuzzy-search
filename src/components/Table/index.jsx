@@ -126,7 +126,7 @@ const Table = () => {
                 <tr key={index}>
                   <td>
                     <img 
-                      src={`/assets/${user_img ? user_img : 'default.jpg'}`}
+                      src={`assets/${user_img ? user_img : 'default.jpg'}`}
                       alt="Profile Picture"
                       style={{
                         width: "70px",
