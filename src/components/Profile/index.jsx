@@ -55,11 +55,13 @@ const Profile = () => {
     return <p>Error</p>;
   }
 
+  console.log(currentStudent);
+
   return (
     <div className="profile-container">
       <div className="profile-picture">
         <img 
-          src={`./assets/${currentStudent?.user_img ? currentStudent?.user_img : 'default.jpg'}`}
+          src={`../../assets/${currentStudent?.user_img ? currentStudent.user_img : 'default.jpg'}`}
           alt="Profile Picture"
           style={{
             width: "150px",
